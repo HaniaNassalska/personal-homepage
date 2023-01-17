@@ -8,4 +8,11 @@ html {
   *, ::after, ::before {
     box-sizing: inherit;
   }
+
+  body {
+    background-color: ${({theme})=> theme.colors.mercury};
+    font-family: "Inter", sans-serif;
+    word-break: break-word;
+  }
   `;
+  
