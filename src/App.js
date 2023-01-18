@@ -1,14 +1,13 @@
-import { Container } from "./Container/styled";
-import ThemeChanger from "./ThemeChanger";
-import Hero from "./Hero";
-import List from "./List";
-import Portfolio from "./Portfolio";
-import Footer from "./Footer";
+import { Container } from "./components/Container/styled";
+import ThemeChanger from "./components/ThemeChanger";
+import Hero from "./components/Hero";
+import List from "./components/List";
+import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 function App() {
   return (
     <Container>
-    <ThemeChanger
-    title={"K"}/>
+    <ThemeChanger/>
     <Hero
     title={"K"}/>
     <List
