@@ -73,7 +73,7 @@ export const Name = styled.h1`
 export const Info = styled.p`
    margin-top: -16px;
    margin-bottom: -16px;
-
+   color: ${({ theme }) => theme.colors.slateGray};
 `;
 
 export const HireGraphic = styled.img`
