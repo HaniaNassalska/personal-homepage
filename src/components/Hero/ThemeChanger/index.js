@@ -1,18 +1,16 @@
 import { Wrapper, ModeText, Text } from "./styled";
 import { ReactComponent as ToggleOffLlight } from "../images/ToggleOff-light.svg"
-const ThemeChanger = ({text}) => (
+const ThemeChanger = ({ text }) => (
   <Wrapper>
     <ModeText>
       <Text>
         {text}
       </Text>
-      </ModeText>
+    </ModeText>
     <ToggleOffLlight
-    title="Dark mode off"
+      title="Dark mode off"
     />
-</Wrapper>
+  </Wrapper>
+);
 
-  
-  );
-  
-  export default ThemeChanger;
+export default ThemeChanger;
