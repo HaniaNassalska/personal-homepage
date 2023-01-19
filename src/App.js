@@ -1,16 +1,18 @@
-import { Container } from "./components/Container/styled";
-import Hero from "./components/Hero";
-import ListContainer from "./components/ListContainer";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import { Container } from "./components/common/Container/styled";
+import Hero from "./components/features/Hero";
+import Portfolio from "./components/features/Portfolio";
+import Footer from "./components/features/Footer";
+import Skills from "./components/features/Skills";
+import Learn from "./components/features/Learn";
 function App() {
   return (
     <Container>
       <Hero/>
-      <ListContainer
-        title={"K"} />
-      <ListContainer
-        title={"K"} />
+      <Skills
+       title={"K"} />
+      <Learn
+       title={"K"} 
+      />
       <Portfolio
         title={"K"} />
       <Footer
