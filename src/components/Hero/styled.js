@@ -5,7 +5,6 @@ export const Wrapper = styled.header`
    margin-left: 345px;
    margin-right: 350px;
    max-width: 1089px;
-   height: 384px;
    display: grid;
    grid-template-columns: 1fr, 2 fr;
    grid-column-gap: 64px;
@@ -26,7 +25,6 @@ export const ThemeChanger = styled.div`
 
 export const ModeText = styled.div`
 max-width: 99px;
-   height: 16px;
 `;
 
 export const Text = styled.span`
@@ -42,14 +40,13 @@ export const Text = styled.span`
 export const Image = styled.img`
    grid-area: image;  
    max-width: 384px;
-  height: 384px;
-  border-radius: 50%;
+  border-radius: 100%;
+  
 `;
 
 export const About = styled.div`
    grid-area: about;  
    max-width: 633px;
-   height: 247px;
 `;
 
 export const IntroductionText = styled.p`
@@ -79,7 +76,6 @@ export const Info = styled.p`
 export const HireGraphic = styled.img`
    margin-top: 32px;   
    max-width: 150px;
-   height: 49px;
 
    &:hover{
       box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
