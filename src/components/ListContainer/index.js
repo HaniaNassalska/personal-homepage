@@ -1,16 +1,31 @@
-import { Wrapper, List, Header, ListItem, HeaderContainer } from "./styled";
+import { Section, List, Header, ListItem, Divider, ElipseWrapper, ListWrapper } from "./styled";
+import { ReactComponent as Elipse } from "./ellipse.svg";
 
 const ListContainer = ({title}) => (
-  <Wrapper>
-  <List>
+  <Section>
+
     <Header>
     {title}
     </Header>
-    <HeaderContainer />
-    <ListItem>Lorem ipsum</ListItem>
-    <ListItem>Lorem ipsum </ListItem>
+    <Divider />
+    <ListWrapper>
+    <List>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsumipsumipsumipsumipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
+    <ListItem><ElipseWrapper><Elipse /></ElipseWrapper>Lorem ipsum</ListItem>
   </List>
-  </Wrapper>
+    </ListWrapper>
+   
+  </Section>
   );
   
   export default ListContainer;
