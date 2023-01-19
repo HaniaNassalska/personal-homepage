@@ -1,15 +1,15 @@
 import { Container } from "./components/Container/styled";
 import Hero from "./components/Hero";
-import List from "./components/List";
+import ListContainer from "./components/ListContainer";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 function App() {
   return (
     <Container>
       <Hero/>
-      <List
+      <ListContainer
         title={"K"} />
-      <List
+      <ListContainer
         title={"K"} />
       <Portfolio
         title={"K"} />
