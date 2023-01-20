@@ -1,14 +1,11 @@
 import { ListWrapper, StyledList } from "./styled";
 
-
-
-const List = ({item})=>(
+const List = ({ item }) => (
   <ListWrapper>
-          <StyledList>
-          {item}
-          </StyledList>
-        </ListWrapper>
-      
+    <StyledList>
+      {item}
+    </StyledList>
+  </ListWrapper>
 );
 
 export default List;

@@ -77,7 +77,8 @@ export const HireGraphic = styled.img`
    max-width: 150px;
 
    &:hover{
-      box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
+      box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 
+         2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
       border-radius: 4px;
    }
 `;
