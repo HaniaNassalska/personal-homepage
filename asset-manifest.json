@@ -1,15 +1,22 @@
 {
   "files": {
     "main.css": "/personal-homepage/static/css/main.e6c13ad2.css",
-    "main.js": "/personal-homepage/static/js/main.613d5dfd.js",
+    "main.js": "/personal-homepage/static/js/main.4931a6eb.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
+    "static/media/Hania-cv-sepia.png": "/personal-homepage/static/media/Hania-cv-sepia.96cf86483078e854b747.png",
+    "static/media/ToggleOff-light.svg": "/personal-homepage/static/media/ToggleOff-light.eabe5bef189d7872e00f7659edc045f8.svg",
+    "static/media/GithubIco.svg": "/personal-homepage/static/media/GithubIco.2036edf053946586d582fb157a4d33ac.svg",
+    "static/media/Github.svg": "/personal-homepage/static/media/Github.09abe07d9aebd72f04b4118999889c9a.svg",
+    "static/media/Button-default-LM.svg": "/personal-homepage/static/media/Button-default-LM.6b2b3d1ac5d9e6a567c8f20811b51076.svg",
     "index.html": "/personal-homepage/index.html",
+    "static/media/LinkedIN.svg": "/personal-homepage/static/media/LinkedIN.2c26b104242a1c77c13c1498fc1cd787.svg",
+    "static/media/ellipse.svg": "/personal-homepage/static/media/ellipse.c28602c8be31d96b4a27bc3627dd6f6f.svg",
     "main.e6c13ad2.css.map": "/personal-homepage/static/css/main.e6c13ad2.css.map",
-    "main.613d5dfd.js.map": "/personal-homepage/static/js/main.613d5dfd.js.map",
+    "main.4931a6eb.js.map": "/personal-homepage/static/js/main.4931a6eb.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.613d5dfd.js"
+    "static/js/main.4931a6eb.js"
   ]
 }
