@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const StyledSection = styled.section`
   max-width: 1216px;
   margin-top: 64px;
-  margin-left: 345px;
-  margin-right: 350px;
   background-color: ${({ theme }) => theme.colors.white}
 `;
 

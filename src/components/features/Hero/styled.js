@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.header`
    margin-top: 110px;
-   margin-left: 345px;
-   margin-right: 350px;
+
    max-width: 1089px;
    display: grid;
    grid-template-columns: 1fr, 2 fr;
