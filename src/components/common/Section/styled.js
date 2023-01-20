@@ -2,15 +2,15 @@ import styled from "styled-components";
 
 export const StyledSection = styled.section`
   max-width: 1216px;
-  margin-top: 64px;
+  margin: 64px 0px;
   background-color: ${({ theme }) => theme.colors.white}
 `;
 
 export const Divider = styled.div`
   height: 1px;
+  background-color: ${({ theme }) => theme.colors.whiteLilac};;
   margin-top: 16px;
   margin-bottom: 32px;
-  background-color: ${({ theme }) => theme.colors.whiteLilac};;
   margin-left: 3%;
   margin-right: 3%;
 `;
