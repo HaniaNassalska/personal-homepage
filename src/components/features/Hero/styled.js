@@ -23,15 +23,13 @@ export const ThemeChanger = styled.div`
  `;
 
 export const ModeText = styled.div`
-max-width: 99px;
+   max-width: 99px;
 `;
 
-export const Text = styled.span`
+export const Text = styled.p`
    font-weight: 700;
    font-size: 12px;
    line-height: 130%;
-   display: flex;
-   align-items: center;
    text-transform: uppercase;
    color: ${({ theme }) => theme.colors.slateGray};
 `;
@@ -39,7 +37,7 @@ export const Text = styled.span`
 export const Image = styled.img`
    grid-area: image;  
    max-width: 384px;
-  border-radius: 100%;
+   border-radius: 100%;
   
 `;
 

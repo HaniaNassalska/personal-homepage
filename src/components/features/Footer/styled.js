@@ -1,0 +1,48 @@
+import styled from "styled-components";
+
+export const Wrapper = styled.div`
+max-width: 670px;
+margin-top: 130px;
+margin-bottom: 100px;
+`
+
+export const TextContainer = styled.div`
+max-width: 99px;
+`;
+
+export const Text = styled.p`
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 130%;
+   text-transform: uppercase;
+   color: ${({ theme }) => theme.colors.slateGray};
+`;
+
+export const Mail = styled.a`
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 39px;
+color: ${({ theme }) => theme.colors.mineShaft};
+  &:hover{
+    color: ${({ theme }) => theme.colors.scienceBlue};
+  }
+`
+
+export const Paragraph = styled.p`
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: ${({ theme }) => theme.colors.mineShaft}
+`
+
+export const IcoContainer = styled.div`
+display: grid;
+grid-template-columns: repeat(auto-fill, 48px);
+grid-gap: 24px;
+`
+
+export const IcoLink = styled.a`
+
+`
