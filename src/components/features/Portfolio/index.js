@@ -21,8 +21,7 @@ const Portfolio = () => (
 <TileTextLink>Demo: <TileLink></TileLink></TileTextLink>
 <TileTextLink>Code: <TileLink></TileLink></TileTextLink>
   </PortfolioTile>
-  </Wrapper>
- 
+  </Wrapper> 
   );
   
   export default Portfolio;

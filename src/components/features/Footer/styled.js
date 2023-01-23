@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
   max-width: 670px;
   margin-top: 130px;
   margin-bottom: 100px;
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    }
 `
 
 export const TextContainer = styled.div`
@@ -30,14 +34,22 @@ export const Mail = styled.a`
     &:hover{
       color: ${({ theme }) => theme.colors.scienceBlue};
     }
+    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+      font-size: 18px;
+      line-height: 22px;
+    }
 `
 
 export const Paragraph = styled.p`
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
-  color: ${({ theme }) => theme.colors.mineShaft}
-`
+  color: ${({ theme }) => theme.colors.mineShaft};
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 14px;
+    line-height: 17px;
+    }
+  `
 
 export const IcoContainer = styled.div`
   display: grid;

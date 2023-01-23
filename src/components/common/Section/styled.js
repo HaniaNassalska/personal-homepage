@@ -6,6 +6,9 @@ export const StyledSection = styled.section`
   background-color: ${({ theme }) => theme.colors.white};
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    max-width: 100%;
+   }
 `;
 
 export const Divider = styled.div`
@@ -24,4 +27,8 @@ export const Header = styled.h2`
   padding-top: 32px;
   padding-left: 3%;
   padding-right: 3%;
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    font-size: 18px;
+    line-height: 22px;
+   }
 `;
