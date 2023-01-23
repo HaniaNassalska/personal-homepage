@@ -1,13 +1,15 @@
 import styled from "styled-components";
+import { ReactComponent as GitHub } from "./Github.svg";
+import { ReactComponent as LinkedIn } from "./LinkedIN.svg";
 
 export const Wrapper = styled.div`
-max-width: 670px;
-margin-top: 130px;
-margin-bottom: 100px;
+  max-width: 670px;
+  margin-top: 130px;
+  margin-bottom: 100px;
 `
 
 export const TextContainer = styled.div`
-max-width: 99px;
+  max-width: 99px;
 `;
 
 export const Text = styled.p`
@@ -19,30 +21,43 @@ export const Text = styled.p`
 `;
 
 export const Mail = styled.a`
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 32px;
-line-height: 39px;
-color: ${({ theme }) => theme.colors.mineShaft};
-  &:hover{
-    color: ${({ theme }) => theme.colors.scienceBlue};
-  }
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  color: ${({ theme }) => theme.colors.mineShaft};
+    &:hover{
+      color: ${({ theme }) => theme.colors.scienceBlue};
+    }
 `
 
 export const Paragraph = styled.p`
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-color: ${({ theme }) => theme.colors.mineShaft}
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: ${({ theme }) => theme.colors.mineShaft}
 `
 
 export const IcoContainer = styled.div`
-display: grid;
-grid-template-columns: repeat(auto-fill, 48px);
-grid-gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 48px);
+  grid-gap: 24px;
 `
 
 export const IcoLink = styled.a`
+`
 
+export const GitHubIco = styled(GitHub)`
+fill: ${({ theme }) => theme.colors.mineShaft};
+  &:hover{
+    fill: ${({ theme }) => theme.colors.scienceBlue};
+  }  
+`
+
+export const LinkedInIco = styled(LinkedIn)`
+  fill:  ${({ theme }) => theme.colors.mineShaft};
+  &:hover{
+    fill: ${({ theme }) => theme.colors.scienceBlue};
+  }
 `
