@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { ReactComponent as GitHub } from "./../../common/Ico/Github.svg";
+
 
 export const Wrapper = styled.div`
   display: flex;
@@ -8,6 +10,14 @@ export const Wrapper = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 32px;
  `;
+
+export const GitHubIco = styled(GitHub)`
+  fill: ${({ theme }) => theme.colors.scienceBlue};
+  width: 40px;
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    width: 32px;
+  };
+`;
 
 export const HeaderWrapper = styled.div`
   grid-column: 1 / 3;
@@ -27,7 +37,7 @@ export const Header = styled.h2`
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
     line-height: 22px;
-  }
+  };
 `;
 
 export const Paragraph = styled.p`
@@ -36,7 +46,7 @@ export const Paragraph = styled.p`
   line-height: 140%;
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 17px;
-  }
+  };
 `;
 
 export const PortfolioTile = styled.div`
@@ -48,7 +58,7 @@ export const PortfolioTile = styled.div`
   border: 6px solid rgba(209, 213, 218, 0.3);
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
    grid-column: 1 / 3;
-  }
+  };
 `;
 
 export const TileHeader = styled.h3`
@@ -60,7 +70,7 @@ export const TileHeader = styled.h3`
   margin-top: 0px;
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 17px;
-  }
+  };
 `;
 export const TileText = styled.p`
   font-weight: 400;
@@ -72,7 +82,7 @@ export const TileText = styled.p`
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
     line-height: 17px;  
-    }
+    };
 `;
 export const TileTextLink = styled.p`
   font-weight: 400;
@@ -83,7 +93,7 @@ export const TileTextLink = styled.p`
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
     line-height: 17px;  
-  }
+  };
 `;
 
 export const TileLink = styled.a`
@@ -91,5 +101,5 @@ export const TileLink = styled.a`
 
   &:hover{
     color: ${({ theme }) => theme.colors.scienceBlue};
-  }
+  };
 `;

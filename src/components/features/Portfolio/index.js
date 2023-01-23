@@ -1,10 +1,9 @@
-import { Header, HeaderWrapper, Paragraph, PortfolioTile, TileHeader, TileLink, TileText, TileTextLink, Wrapper } from "./styled";
-import { ReactComponent as GithubIco } from "./GithubIco.svg";
+import { GitHubIco, Header, HeaderWrapper, Paragraph, PortfolioTile, TileHeader, TileLink, TileText, TileTextLink, Wrapper } from "./styled";
 
 const Portfolio = () => (
   <Wrapper>
    <HeaderWrapper>
-   <GithubIco/>
+   <GitHubIco/>
   <Header>Portfolio</Header>
   <Paragraph>My recent projects</Paragraph>
    </HeaderWrapper>

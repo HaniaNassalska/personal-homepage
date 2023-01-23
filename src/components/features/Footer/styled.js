@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { ReactComponent as GitHub } from "./Github.svg";
-import { ReactComponent as LinkedIn } from "./LinkedIN.svg";
+import { ReactComponent as GitHub } from "./../../common/Ico/Github.svg";
+import { ReactComponent as LinkedIn } from "./../../common/Ico/LinkedIN.svg";
 
 export const Wrapper = styled.div`
   max-width: 670px;
@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-top: 48px;
     margin-bottom: 48px;
-    }
+    };
 `
 
 export const TextContainer = styled.div`
@@ -33,11 +33,11 @@ export const Mail = styled.a`
   color: ${({ theme }) => theme.colors.mineShaft};
     &:hover{
       color: ${({ theme }) => theme.colors.scienceBlue};
-    }
+    };
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
       font-size: 18px;
       line-height: 22px;
-    }
+    };
 `
 
 export const Paragraph = styled.p`
@@ -48,13 +48,17 @@ export const Paragraph = styled.p`
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
     line-height: 17px;
-    }
+    };
   `
 
 export const IcoContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, 48px);
   grid-gap: 24px;
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+    grid-template-columns: repeat(auto-fill, 32px);
+    grid-gap: 16px;
+   };
 `
 
 export const IcoLink = styled.a`
@@ -64,12 +68,18 @@ export const GitHubIco = styled(GitHub)`
 fill: ${({ theme }) => theme.colors.mineShaft};
   &:hover{
     fill: ${({ theme }) => theme.colors.scienceBlue};
-  }  
+  };  
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+   width: 32px;
+  };
 `
 
 export const LinkedInIco = styled(LinkedIn)`
   fill:  ${({ theme }) => theme.colors.mineShaft};
   &:hover{
     fill: ${({ theme }) => theme.colors.scienceBlue};
-  }
+  };
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+   width: 32px;
+  };
 `
