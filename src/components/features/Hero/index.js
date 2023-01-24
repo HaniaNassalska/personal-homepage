@@ -1,7 +1,6 @@
 import {
   Wrapper,
   ThemeChanger,
-  ModeText,
   Text,
   Image,
   About,
@@ -13,14 +12,11 @@ import {
 } from "./styled";
 import myPhoto from "./images/Hania-cv-sepia.png";
 import { ReactComponent as ToggleOffLlight } from "./images/ToggleOff-light.svg";
-import hireImage from "./images/Button-default-LM.svg";
 
 const Hero = () => (
   <Wrapper>
     <ThemeChanger>
-      <ModeText>
-        <Text>dark mode off</Text>
-      </ModeText>
+      <Text>dark mode off</Text>
       <ToggleOffLlight
         title="Dark mode off"
         alt="Dark mode off"
@@ -36,7 +32,6 @@ const Hero = () => (
         I love learning new things and challenging myself!</Info>
       <Mail href="mailto:hanna.nassalska@gmail.com">
         <HireGraphic
-          src={hireImage}
           title="Hire me"
           alt="Hire me - mail to me" />
       </Mail>

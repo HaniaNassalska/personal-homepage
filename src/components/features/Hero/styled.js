@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { ReactComponent as HireMe } from "./images/Button-default-LM.svg";
 
 export const Wrapper = styled.header`
-   margin-top: 110px;
+   margin-top: 60px;
    display: grid;
    grid-template-columns: 1fr 2fr;
    grid-column-gap: 64px;
@@ -30,19 +31,15 @@ export const ThemeChanger = styled.div`
    gap: 12px;
 `;
 
-export const ModeText = styled.div`
-   max-width: 99px;
-   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-      display: none;
-   };
-`;
-
 export const Text = styled.p`
    font-weight: 700;
    font-size: 12px;
    line-height: 130%;
    text-transform: uppercase;
    color: ${({ theme }) => theme.colors.slateGray};
+   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+      display: none;
+   };
 `;
 
 export const Image = styled.img`
@@ -91,7 +88,7 @@ export const Info = styled.p`
    };
 `;
 
-export const HireGraphic = styled.img`
+export const HireGraphic = styled(HireMe)`
    margin-top: 32px;   
    max-width: 150px;
    &:hover{
@@ -99,7 +96,6 @@ export const HireGraphic = styled.img`
          2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
       border-radius: 4px;
    };
-
    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
       margin-top: 10px;
    };
