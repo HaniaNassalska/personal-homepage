@@ -5,7 +5,7 @@ import { ReactComponent as LinkedIn } from "./../../common/Ico/LinkedIN.svg";
 export const Wrapper = styled.div`
   max-width: 670px;
   margin-top: 130px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-top: 48px;
     margin-bottom: 48px;

@@ -12,7 +12,6 @@ export const Item = styled.li`
   display: flex;
   flex-direction: row;
   padding-left: 3%;
-  padding-right: 3%;
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
     line-height: 17px;

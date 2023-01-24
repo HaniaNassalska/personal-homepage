@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { ReactComponent as GitHub } from "./../../common/Ico/Github.svg";
 
-
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -51,11 +50,11 @@ export const Paragraph = styled.p`
 
 export const PortfolioTile = styled.div`
   background-color: ${({ theme }) => theme.colors.white};
-  max-width: 592px;
   padding: 6% 9%;
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
   border: 6px solid rgba(209, 213, 218, 0.3);
+  margin: 0 auto;
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
    grid-column: 1 / 3;
   };
