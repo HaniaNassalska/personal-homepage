@@ -6,7 +6,6 @@ export const ElipseWrapper = styled.div`
 `;
 
 export const Item = styled.li`
-  font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   margin-bottom: 8px;
@@ -17,6 +16,5 @@ export const Item = styled.li`
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
     line-height: 17px;
-   }
-  
-`
+   };
+  `;

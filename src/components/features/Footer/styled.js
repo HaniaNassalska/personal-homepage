@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
     margin-top: 48px;
     margin-bottom: 48px;
     };
-`
+`;
 
 export const TextContainer = styled.div`
   max-width: 99px;
@@ -38,7 +38,7 @@ export const Mail = styled.a`
       font-size: 18px;
       line-height: 22px;
     };
-`
+`;
 
 export const Paragraph = styled.p`
   font-weight: 400;
@@ -49,7 +49,7 @@ export const Paragraph = styled.p`
     font-size: 14px;
     line-height: 17px;
     };
-  `
+  `;
 
 export const IcoContainer = styled.div`
   display: grid;
@@ -59,10 +59,10 @@ export const IcoContainer = styled.div`
     grid-template-columns: repeat(auto-fill, 32px);
     grid-gap: 16px;
    };
-`
+`;
 
 export const IcoLink = styled.a`
-`
+`;
 
 export const GitHubIco = styled(GitHub)`
 fill: ${({ theme }) => theme.colors.mineShaft};
@@ -72,7 +72,7 @@ fill: ${({ theme }) => theme.colors.mineShaft};
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
    width: 32px;
   };
-`
+`;
 
 export const LinkedInIco = styled(LinkedIn)`
   fill:  ${({ theme }) => theme.colors.mineShaft};
@@ -82,4 +82,4 @@ export const LinkedInIco = styled(LinkedIn)`
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
    width: 32px;
   };
-`
+`;

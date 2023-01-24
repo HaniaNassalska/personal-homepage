@@ -20,6 +20,16 @@ const Learn = () => (
               text={"klkl"} />
             <ListItem
               text={"klkl"} />
+              <ListItem
+              text={"Lorem ifffffffffffffffffffffffffffffffffffffffffff"} />
+            <ListItem
+              text={"Lorem ifffffffffffffffffffffffffffffffffffffffffff"} />
+            <ListItem
+              text={"Github pull requested & review"} />
+            <ListItem
+              text={"klkl"} />
+            <ListItem
+              text={"klkl"} />
           </>
         }
       />

@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 32px;
- `;
+`;
 
 export const GitHubIco = styled(GitHub)`
   fill: ${({ theme }) => theme.colors.scienceBlue};
@@ -84,6 +84,7 @@ export const TileText = styled.p`
     line-height: 17px;  
     };
 `;
+
 export const TileTextLink = styled.p`
   font-weight: 400;
   font-size: 18px;
@@ -98,7 +99,6 @@ export const TileTextLink = styled.p`
 
 export const TileLink = styled.a`
   color: ${({ theme }) => theme.colors.dodgerBlue};
-
   &:hover{
     color: ${({ theme }) => theme.colors.scienceBlue};
   };
