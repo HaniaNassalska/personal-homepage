@@ -24,6 +24,7 @@ const Hero = () => (
     </ThemeChanger>
     <Image
       src={myPhoto}
+      alt=""
     />
     <About>
       <IntroductionText>This is</IntroductionText>

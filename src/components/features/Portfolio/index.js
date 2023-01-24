@@ -3,7 +3,7 @@ import { GitHubIco, Header, HeaderWrapper, Paragraph, PortfolioTile, TileHeader,
 const Portfolio = () => (
   <Wrapper>
     <HeaderWrapper>
-      <GitHubIco />
+      <GitHubIco alt="GitHub"/>
       <Header>Portfolio</Header>
       <Paragraph>My recent projects</Paragraph>
     </HeaderWrapper>
