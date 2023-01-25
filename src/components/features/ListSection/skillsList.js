@@ -1,0 +1,33 @@
+export const skills = [
+  "React",
+  "React Hooks",
+  "React Router",
+  "NPM",
+  "Redux",
+  "Redux (Toolkit)",
+  "Redux-Saga",
+  "Immutability",
+  "GitHub Pull Requests & Review",
+  "Git",
+  "Working with API (fetch, axios)",
+  "Promises, Async/Await",
+  "Error handling",
+  "ES6+",
+  "Semantic & accessible HTML",
+  "Responsive Web Design",
+  "CSS Flexbox",
+  "CSS Grid",
+  "CSS BEM convention",
+  "Markdown",
+  "Trello",
+  "Scrum",
+  "Project Manager",
+  "IT Project Manager (1 year experience)", 
+  "Website content edition including accessibility - WCAG (6 years experience)", 
+];
+
+export const toLearn = [
+  "Wordpress development",  
+  "Mobile app development",
+  "WCAG",
+];

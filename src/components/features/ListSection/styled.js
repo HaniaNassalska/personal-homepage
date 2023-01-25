@@ -62,6 +62,7 @@ export const Item = styled.li`
     content: "\\25CF";
     color: ${({theme}) => theme.colors.scienceBlue};
     width: 26px;
+    padding-right: 3px;
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
