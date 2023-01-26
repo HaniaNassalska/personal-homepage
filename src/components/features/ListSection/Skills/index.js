@@ -1,6 +1,6 @@
-import { Divider, Item, ListWrapper, StyledList, Wrapper, Header } from "./styled";
+import { Divider, Item, ListWrapper, StyledList, Wrapper, Header } from "../styled";
 
-const ListSection = ({ title, listItems }) => (
+const Skills = ({ title, listItems }) => (
   <Wrapper>
     <Header>
       {title}
@@ -17,4 +17,4 @@ const ListSection = ({ title, listItems }) => (
   </Wrapper>
 );
 
-export default ListSection;
+export default Skills;

@@ -1,19 +1,20 @@
 import { Container } from "./components/common/Container/styled";
 import Hero from "./components/features/Hero";
-import ListSection from "./components/features/ListSection";
 import Portfolio from "./components/features/Portfolio";
 import Footer from "./components/features/Footer";
-import { skills, toLearn } from "./components/features/ListSection/skillsList";
+import { skills, toLearn } from "./components/features/ListSection/listOfSkills";
+import Skills from "./components/features/ListSection/Skills";
+import ToLearn from "./components/features/ListSection/ToLearn";
 function App() {
   return (
     <Container>
       <Hero/>
-      <ListSection 
-      title={"My skillset includes  🛠️"}
+      <Skills
+      title={"My skillset includes:"}
       listItems={skills}
       />
-      <ListSection 
-       title={"What I want to learn next  🚀 "}
+      <ToLearn 
+       title={"What I want to learn next?"}
        listItems={toLearn}
       />
       <Portfolio/>

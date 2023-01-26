@@ -42,6 +42,8 @@ export const StyledList = styled.ul`
   color: ${({ theme }) => theme.colors.slateGray};
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  grid-auto-flow: column;
   text-align: start;
   margin-left: -50px;
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -51,6 +53,10 @@ export const StyledList = styled.ul`
     grid-template-columns: 1fr;
   };
 `;
+
+export const LearnList = styled(StyledList)`
+  grid-template-rows: none;
+`
 export const Item = styled.li`
   font-size: 18px;
   line-height: 140%;

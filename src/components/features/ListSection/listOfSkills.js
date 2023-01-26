@@ -6,7 +6,6 @@ export const skills = [
   "Redux",
   "Redux (Toolkit)",
   "Redux-Saga",
-  "Immutability",
   "GitHub Pull Requests & Review",
   "Git",
   "Working with API (fetch, axios)",
@@ -15,15 +14,15 @@ export const skills = [
   "ES6+",
   "Semantic & accessible HTML",
   "Responsive Web Design",
+  "Immutability",
   "CSS Flexbox",
   "CSS Grid",
   "CSS BEM convention",
   "Markdown",
   "Trello",
-  "Scrum",
-  "Project Manager",
-  "IT Project Manager (1 year experience)", 
-  "Website content edition including accessibility - WCAG (6 years experience)", 
+  "Project Manager expierience",
+  "IT Project Manager experience",
+  "WCAG basic knowlage", 
 ];
 
 export const toLearn = [
