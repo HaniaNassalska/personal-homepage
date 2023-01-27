@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { ReactComponent as GitHub } from "./../../common/Ico/Github.svg";
-import { ReactComponent as LinkedIn } from "./../../common/Ico/LinkedIN.svg";
+import { ReactComponent as GitHub } from "./../../../common/Ico/Github.svg";
+import { ReactComponent as LinkedIn } from "./../../../common/Ico/LinkedIN.svg";
 
 export const Wrapper = styled.div`
   max-width: 670px;

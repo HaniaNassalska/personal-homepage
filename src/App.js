@@ -1,10 +1,10 @@
 import { Container } from "./components/common/Container/styled";
-import Hero from "./components/features/Hero";
-import Portfolio from "./components/features/Portfolio";
-import Footer from "./components/features/Footer";
-import { skills, toLearn } from "./components/features/ListSection/listOfSkills";
-import Skills from "./components/features/ListSection/Skills";
-import ToLearn from "./components/features/ListSection/ToLearn";
+import Hero from "./components/features/homepage/Hero";
+import Portfolio from "./components/features/homepage/Portfolio";
+import Footer from "./components/features/homepage/Footer";
+import { skills, toLearn } from "./components/features/homepage/ListSection/listOfSkills";
+import Skills from "./components/features/homepage/ListSection/Skills";
+import ToLearn from "./components/features/homepage/ListSection/ToLearn";
 function App() {
   return (
     <Container>

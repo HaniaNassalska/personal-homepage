@@ -13,7 +13,8 @@ root.render(
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <App />
-    </ThemeProvider>  </React.StrictMode>
+    </ThemeProvider>  
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

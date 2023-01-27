@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as GitHub } from "./../../common/Ico/Github.svg";
+import { ReactComponent as GitHub } from "./../../../common/Ico/Github.svg";
 
 export const Wrapper = styled.section`
   display: flex;
