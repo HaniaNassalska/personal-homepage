@@ -51,6 +51,7 @@ export const StyledList = styled.ul`
     margin-right: 0px;   
     display: grid;
     grid-template-columns: 1fr;
+    grid-auto-flow: row;
   };
 `;
 
