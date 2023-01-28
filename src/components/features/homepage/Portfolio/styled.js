@@ -18,7 +18,7 @@ export const GitHubIco = styled(GitHub)`
   };
 `;
 
-export const HeaderWrapper = styled.div`
+export const ContentContainer = styled.div`
   grid-column: 1 / 3;
   align-self: center;
   justify-self: center;
