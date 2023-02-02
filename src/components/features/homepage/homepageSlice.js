@@ -1,33 +1,33 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { getGitHubRepo } from './getGitHubRepo';
 
 const homepageSlice = createSlice({
- name: 'portfolio',
- initialState: {
-  status: "pending",
- projects: [],
- },
- reducers: {
-fetchDownloadingProjectsPending: state => {
-  state.status = "pending";
+  name: 'protfolio',
+  initialState: {
+    status: "",
+    projects: [],
+  },
+  reducers: {
+    fetchProjectsPending: state => {
+      state.status = "pending";
+    },
+    fetchProjectsSuccess: (state, { payload: projects }) => {
+      state.projects = projects;
+      state.status = "success";
+    },
+    fetchProjectsError: state => {
+      state.status = "error";
+    }
+  }
+});
 
- },
- fetchDownloadProjectsSuccess:  (state, {payload: projects}) => {
-  projects = getGitHubRepo.respone;
-  state.status = "success";
-},
- fetchDownloadingPortfolioError: state => {
-  state.status = "error";
- }
-}});
-export const { 
-  fetchDownloadingProjectsPending,
-  fetchDownloadProjectsSuccess,
-  fetchDownloadingProjectsError
- } = homepageSlice.actions;
+export const {
+  fetchProjectsPending,
+  fetchProjectsSuccess,
+  fetchProjectsError
+} = homepageSlice.actions;
 
-export const selectPortfolioState = state => state.portfolio;
+export const selectPortfolioState = state => state.protfolio;
 export const selectStatus = state => selectPortfolioState(state).status;
-export const selectProjects = state => selectPortfolioState(state).projects; 
+export const selectProjects = state => selectPortfolioState(state).projects;
 export default homepageSlice.reducer;
 
