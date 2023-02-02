@@ -7,7 +7,7 @@ import {
 } from "../styled";
 import { IcoSpinner } from "./styled";
 
-const Pending = () => (
+const PendingView = () => (
   <Wrapper>
     <ContentContainer>
       <GitHubIco alt="" />
@@ -21,4 +21,4 @@ const Pending = () => (
   </Wrapper>
 );
 
-export default Pending;
+export default PendingView;

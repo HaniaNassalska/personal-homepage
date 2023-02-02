@@ -1,18 +1,18 @@
-import { 
-  ContentContainer, 
-  GitHubIco, 
-  Header, 
-  Paragraph, 
-  Wrapper 
+import {
+  ContentContainer,
+  GitHubIco,
+  Header,
+  Paragraph,
+  Wrapper
 } from "../styled";
-import { 
-  DangerIco, 
-  GitHubLink, 
-  GoToIco, 
-  H3Header 
+import {
+  DangerIco,
+  GitHubLink,
+  GoToIco,
+  H3Header
 } from "./styled";
 
-const Error = () => (
+const ErrorView = () => (
   <Wrapper>
     <ContentContainer>
       <GitHubIco
@@ -41,4 +41,4 @@ const Error = () => (
   </Wrapper>
 );
 
-export default Error;
+export default ErrorView;
