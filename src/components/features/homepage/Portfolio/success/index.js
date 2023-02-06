@@ -10,7 +10,8 @@ import {
   TileText,
   TileTextLink,
   Wrapper,
-  TileLink
+  TileLink,
+  LinkWrapper
 } from "../styled";
 
 const SuccessView = () => {
@@ -24,11 +25,16 @@ const SuccessView = () => {
         <Paragraph>My recent projects</Paragraph>
       </ContentContainer>
       {projects.map(project => (
-        <PortfolioTile>
-          <TileHeader key={project.id}>{project.name}</TileHeader>
-          <TileText >  {project.descriotion}</TileText>
-          <TileTextLink key={project.id}>Demo: {project.homepage}<TileLink></TileLink></TileTextLink>
-          <TileTextLink key={project.id}>Code: {project.html_url}<TileLink></TileLink></TileTextLink>
+        <PortfolioTile  key={project.id}>
+          <TileHeader>{(project.name.replaceAll( "-", " ").replaceAll("_", " "))}</TileHeader>
+          <TileText >  {project.description}</TileText>
+          <LinkWrapper>
+          <TileTextLink> Demo: </TileTextLink><TileLink href={project.homepage}>{project.homepage}</TileLink>
+         
+
+          <TileTextLink> Code: </TileTextLink> <TileLink href={project.html_url}> {project.html_url}</TileLink>
+          </LinkWrapper>
+
         </PortfolioTile>
       ))
 
