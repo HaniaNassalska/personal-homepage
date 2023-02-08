@@ -7,11 +7,11 @@ import ToLearn from "./components/features/homepage/ListSection/ToLearn";
 function App() {
   return (
     <Container>
-      <Hero/>
-      <Skills/>
-      <ToLearn/>
-      <Portfolio/>
-      <Footer/>
+      <Hero />
+      <Skills />
+      <ToLearn />
+      <Portfolio />
+      <Footer />
     </Container>
   );
 }
