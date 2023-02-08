@@ -1,16 +1,17 @@
 import { Divider, Item, ListWrapper, StyledList, Wrapper, Header } from "../styled";
+import { skills } from "../listOfSkills";
 
-const Skills = ({ title, listItems }) => (
+
+const Skills = () => (
   <Wrapper>
     <Header>
-      {title}
+    My skillset includes:
     </Header>
     <Divider />
     <ListWrapper>
     <StyledList>
-      {listItems.map(item => 
+      {skills.map(item => 
         <Item key={item}>{item}</Item> )}
-               
       </StyledList>
     </ListWrapper>
 

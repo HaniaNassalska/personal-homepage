@@ -1,14 +1,16 @@
 import { Divider, Item, ListWrapper, LearnList, Wrapper, Header } from "../styled";
+import { toLearn } from "../listOfSkills";
 
-const ToLearn = ({ title, listItems }) => (
+
+const ToLearn = ({  listItems }) => (
   <Wrapper>
     <Header>
-      {title}
+    What I want to learn next?
     </Header>
     <Divider />
     <ListWrapper>
     <LearnList>
-      {listItems.map(item => 
+      {toLearn.map(item => 
         <Item key={item}>{item}</Item> )}
                
       </LearnList>
