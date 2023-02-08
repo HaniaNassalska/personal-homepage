@@ -12,7 +12,7 @@ const theme = {
 
   breakpoint: {
     mobileMax: 767,
-    desktopMin: 768,
+    desktopMax: 1212,
   }
 };
 
