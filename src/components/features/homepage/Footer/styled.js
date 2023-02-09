@@ -21,7 +21,7 @@ export const Text = styled.p`
    font-size: 12px;
    line-height: 130%;
    text-transform: uppercase;
-   color: ${({ theme }) => theme.colors.slateGray};
+   color: ${({ theme }) => theme.colors.textSecondary};
 `;
 
 export const Mail = styled.a`
@@ -30,9 +30,9 @@ export const Mail = styled.a`
   font-weight: 900;
   font-size: 32px;
   line-height: 39px;
-  color: ${({ theme }) => theme.colors.mineShaft};
+  color: ${({ theme }) => theme.colors.text};
     &:hover{
-      color: ${({ theme }) => theme.colors.scienceBlue};
+      color: ${({ theme }) => theme.colors.linkButtonBlue};
     };
     @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
       font-size: 18px;
@@ -44,7 +44,7 @@ export const Paragraph = styled.p`
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
-  color: ${({ theme }) => theme.colors.mineShaft};
+  color: ${({ theme }) => theme.colors.text};
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
     line-height: 17px;
@@ -65,9 +65,9 @@ export const IcoLink = styled.a`
 `;
 
 export const GitHubIco = styled(GitHub)`
-fill: ${({ theme }) => theme.colors.mineShaft};
+fill: ${({ theme }) => theme.colors.text};
   &:hover{
-    fill: ${({ theme }) => theme.colors.scienceBlue};
+    fill: ${({ theme }) => theme.colors.linkButtonBlue};
   };  
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
    width: 32px;
@@ -75,9 +75,9 @@ fill: ${({ theme }) => theme.colors.mineShaft};
 `;
 
 export const LinkedInIco = styled(LinkedIn)`
-  fill:  ${({ theme }) => theme.colors.mineShaft};
+  fill:  ${({ theme }) => theme.colors.text};
   &:hover{
-    fill: ${({ theme }) => theme.colors.scienceBlue};
+    fill: ${({ theme }) => theme.colors.linkButtonBlue};
   };
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
    width: 32px;

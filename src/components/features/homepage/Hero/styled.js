@@ -1,18 +1,19 @@
 import styled from "styled-components";
 import { ReactComponent as HireMe } from "./images/Button-default-LM.svg";
+import { ReactComponent as HireMeDM } from "./images/Button-default-DM.svg";
 
 export const Wrapper = styled.header`
    margin-top: 60px;
    display: grid;
-   grid-template-columns: 1fr 2fr;
+   grid-template-columns: 1fr 1fr 170px;
    grid-column-gap: 64px;
    grid-template-areas:
-   "... theme"
-   "image about";
+   "... ... theme"
+   "image about about";
    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
       margin-top: 0px;
       max-width: 100%;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 50px;;
       grid-column-gap: 0px;
       grid-template-areas:
       "... theme"
@@ -21,7 +22,11 @@ export const Wrapper = styled.header`
    };
 `;
 
-export const ThemeChanger = styled.div`
+export const ThemeChanger = styled.button`
+   justify-items: end;
+   max-width: 163px;
+   background-color: transparent;
+   border: none;
    grid-area: theme;
    display: flex;
    flex-direction: row;
@@ -36,7 +41,7 @@ export const Text = styled.p`
    font-size: 12px;
    line-height: 130%;
    text-transform: uppercase;
-   color: ${({ theme }) => theme.colors.slateGray};
+   color: ${({ theme }) => theme.colors.textSecondary};
    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
       display: none;
    };
@@ -62,7 +67,7 @@ export const IntroductionText = styled.p`
    font-weight: 700;
    font-size: 12px;
    text-transform: uppercase;
-   color: ${({ theme }) => theme.colors.slateGray};
+   color: ${({ theme }) => theme.colors.textSecondary};
 `;
 
 export const Name = styled.h1`
@@ -72,7 +77,7 @@ export const Name = styled.h1`
    font-weight: 900;
    font-size: 38px;
    line-height: 46px;
-   color: ${({ theme }) => theme.colors.mineShaft};
+   color: ${({ theme }) => theme.colors.text};
    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
       font-size: 22px;
       line-height: 27px;
@@ -81,7 +86,7 @@ export const Name = styled.h1`
 
 export const Info = styled.p`
    margin-top: -16px;
-   color: ${({ theme }) => theme.colors.slateGray};
+   color: ${({ theme }) => theme.colors.textSecondary};
    @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
       font-size: 17px;
       line-height: 140%;
@@ -89,6 +94,19 @@ export const Info = styled.p`
 `;
 
 export const HireGraphic = styled(HireMe)`
+   margin-top: 32px;   
+   max-width: 150px;
+   &:hover{
+      box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 
+         2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
+      border-radius: 4px;
+   };
+   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+      margin-top: 10px;
+   };
+`;
+
+export const HireGraphicDM = styled(HireMeDM)`
    margin-top: 32px;   
    max-width: 150px;
    &:hover{

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.section`
   max-width: 1216px;
   margin: 64px 0px;
-  background-color: ${({ theme }) => theme.colors.white};
+  background-color: ${({ theme }) => theme.colors.sectionBackground};
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
@@ -13,7 +13,7 @@ export const Wrapper = styled.section`
 
 export const Divider = styled.div`
   height: 1px;
-  background-color: ${({ theme }) => theme.colors.whiteLilac};;
+  background-color: ${({ theme }) => theme.colors.background};;
   margin-top: 16px;
   margin-bottom: 32px;
   margin-left: 3%;
@@ -27,6 +27,7 @@ export const Header = styled.h2`
   padding-top: 32px;
   padding-left: 3%;
   padding-right: 3%;
+  color: ${({ theme }) => theme.colors.text};
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
     line-height: 22px;
@@ -39,7 +40,7 @@ export const ListWrapper = styled.div`
 
 export const StyledList = styled.ul`
   list-style: none;
-  color: ${({ theme }) => theme.colors.slateGray};
+  color: ${({ theme }) => theme.colors.textSecondary};
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: repeat(8, 1fr);
@@ -67,7 +68,7 @@ export const Item = styled.li`
   padding-left: 3%;
   &:before {
     content: "\\25CF";
-    color: ${({theme}) => theme.colors.scienceBlue};
+    color: ${({theme}) => theme.colors.linkButtonBlue};
     width: 26px;
     padding-right: 3px;
   }

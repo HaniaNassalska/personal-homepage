@@ -11,7 +11,7 @@ export const Wrapper = styled.section`
 `;
 
 export const GitHubIco = styled(GitHub)`
-  fill: ${({ theme }) => theme.colors.scienceBlue};
+  fill: ${({ theme }) => theme.colors.linkButtonBlue};
   width: 40px;
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     width: 32px;
@@ -33,6 +33,7 @@ export const Header = styled.h2`
   font-weight: 900;
   font-size: 30px;
   line-height: 36px;
+  color: ${({ theme }) => theme.colors.text};
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 18px;
     line-height: 22px;
@@ -43,6 +44,7 @@ export const Paragraph = styled.p`
   margin: 0 auto;
   font-size: 20px;
   line-height: 140%;
+  color: ${({ theme }) => theme.colors.text};
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 17px;
   };

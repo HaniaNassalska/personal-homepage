@@ -18,7 +18,6 @@ import {
 
 const SuccessView = () => {
   const projects = useSelector(selectProjects)
-
   return (
     <Wrapper>
       <ContentContainer>
