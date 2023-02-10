@@ -13,7 +13,7 @@ import { selectTheme } from './components/features/homepage/Hero/themeSwitcher/t
 function App() {
   const theme = useSelector(selectTheme);
   return (
-    <ThemeProvider theme={theme === true ? lightTheme : darkTheme}>
+    <ThemeProvider theme={theme === true ? darkTheme : lightTheme}>
       <GlobalStyle />
       <Container>
         <Hero />

@@ -4,12 +4,12 @@ import { getThemeFromLocalStorage } from './themeLocalStorage';
 const themeSlice = createSlice({
   name: 'theme',
   initialState: {
-    lightTheme: getThemeFromLocalStorage(),
+    darkTheme: getThemeFromLocalStorage(),
 
   },
   reducers: {
     toggleTheme: state => {
-      state.lightTheme = !state.lightTheme;
+      state.darkTheme = !state.darkTheme;
     }
   }
 });
@@ -19,7 +19,7 @@ export const {
 } = themeSlice.actions;
 
 export const selectThemeState = state => state.theme;
-export const selectTheme = state => selectThemeState(state).lightTheme;
+export const selectTheme = state => selectThemeState(state).darkTheme;
 
 export default themeSlice.reducer;
 
