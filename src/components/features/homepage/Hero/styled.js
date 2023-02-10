@@ -34,6 +34,9 @@ export const ThemeChanger = styled.button`
    align-items: center;
    padding: 0px;
    gap: 12px;
+   :hover{
+      cursor: pointer;
+   }
 `;
 
 export const Text = styled.p`
