@@ -12,8 +12,9 @@ const breakpoint = {
       border: "#D1D5DA4D",
       text: "#252525",
       textSecondary: "#6E7E91",
-      linkHoverBlue: "#2517EB",
+      linkHoverBlue: "#0F0599",
       linkButtonBlue: "#0366D6",
+      tileHoverBlue: "#D4E1F7"
     }
   };
   
@@ -26,8 +27,8 @@ const breakpoint = {
       text: "#FFFFFF",
       secondaryFont: "#FFFFFF",
       textSecondary: "#FFFFFF",
-      linkHoverBlue: "#2283F2",
+      linkHoverBlue: "#C9DFF8",
       linkButtonBlue: "#2188FF",
-    
+      tileHoverBlue: "#2188FF"
     }
   };

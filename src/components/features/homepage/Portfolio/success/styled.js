@@ -8,7 +8,7 @@ export const PortfolioTile = styled.div`
   border: 6px solid rgba(209, 213, 218, 0.3);
   transition: 1s;
   :hover{
-    border: 6px solid #D4E1F7;
+    border: 6px solid ${({ theme }) => theme.colors.tileHoverBlue};
   }
   
   @media(max-width: ${({ theme }) => theme.breakpoint.desktopMax}px) {
