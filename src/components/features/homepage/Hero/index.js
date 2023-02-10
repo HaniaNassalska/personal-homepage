@@ -26,7 +26,7 @@ const Hero = () => {
       <ThemeChanger
         onClick={() => dispach(toggleTheme())}
       >
-        {theme === true ?
+        {theme === false ?
           <>
             <Text>dark mode off</Text>
             <ToggleOffLlight
@@ -54,7 +54,7 @@ const Hero = () => {
         <Info>I'm feel like being ready to find a job as Junior Frontend Developer.
           I love learning new things and challenging myself!</Info>
         <Mail href="mailto:hanna.nassalska@gmail.com">
-          {theme === true ?
+          {theme === false ?
             <>
               <HireGraphic
                 title="Hire me"
