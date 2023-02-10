@@ -95,7 +95,8 @@ export const Info = styled.p`
 
 export const HireGraphic = styled(HireMe)`
    margin-top: 32px;   
-   max-width: 150px;
+   width: 150px;
+   transition: 0.5s;
    &:hover{
       box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 
          2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
@@ -109,6 +110,7 @@ export const HireGraphic = styled(HireMe)`
 export const HireGraphicDM = styled(HireMeDM)`
    margin-top: 32px;   
    max-width: 150px;
+   transition: 0.5s;
    &:hover{
       box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 
          2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;

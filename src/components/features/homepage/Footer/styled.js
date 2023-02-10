@@ -31,6 +31,7 @@ export const Mail = styled.a`
   font-size: 32px;
   line-height: 39px;
   color: ${({ theme }) => theme.colors.text};
+  transition: 0.5s;
     &:hover{
       color: ${({ theme }) => theme.colors.linkButtonBlue};
     };
@@ -66,6 +67,7 @@ export const IcoLink = styled.a`
 
 export const GitHubIco = styled(GitHub)`
 fill: ${({ theme }) => theme.colors.text};
+transition: 0.5s;
   &:hover{
     fill: ${({ theme }) => theme.colors.linkButtonBlue};
   };  
@@ -76,6 +78,7 @@ fill: ${({ theme }) => theme.colors.text};
 
 export const LinkedInIco = styled(LinkedIn)`
   fill:  ${({ theme }) => theme.colors.text};
+  transition: 0.5s;
   &:hover{
     fill: ${({ theme }) => theme.colors.linkButtonBlue};
   };

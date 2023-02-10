@@ -6,6 +6,10 @@ export const PortfolioTile = styled.div`
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
   border: 6px solid rgba(209, 213, 218, 0.3);
+  transition: 1s;
+  :hover{
+    border: 6px solid #D4E1F7;
+  }
   
   @media(max-width: ${({ theme }) => theme.breakpoint.desktopMax}px) {
    grid-column: 1 / 3;
@@ -62,6 +66,7 @@ export const TileLink = styled.a`
   color: ${({ theme }) => theme.colors.linkButtonBlue};
   display: flex;
   align-items: center;  
+  transition: 0.5s;
   &:hover{
     color: ${({ theme }) => theme.colors.linkHoverBlue};
   };
