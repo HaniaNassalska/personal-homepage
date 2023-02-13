@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { Paragraph } from "../styled";
 import { ReactComponent as Danger } from "./danger.svg";
 import { ReactComponent as GoToHitHub } from "./goToGitHub.svg";
-
+import { ReactComponent as GoToHitHubDM } from "./goToGitHubDM.svg";
 export const DangerIco = styled(Danger)`
 `;
 
@@ -13,16 +14,29 @@ export const H3Header = styled.h3`
   letter-spacing: 0.05em;
 `;
 
+export const ErrorParagraph = styled(Paragraph)`
+margin-bottom: 32px;
+@media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+      margin-bottom: 10px;
+   };
+
+`
+
 export const GoToIco = styled(GoToHitHub)`
-  margin-top: 32px;   
-  max-width: 150px;
+  transition: 0.5s;
   &:hover{
       box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 
          2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
       border-radius: 4px;
    };
-   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
-      margin-top: 10px;
+  `;
+
+export const GoToIcoDM = styled(GoToHitHubDM)`
+  transition: 0.5s;
+  &:hover{
+      box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 
+         2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
+      border-radius: 4px;
    };
 `;
 
