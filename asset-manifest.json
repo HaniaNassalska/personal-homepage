@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.7fc3a5ff.js",
+    "main.js": "/personal-homepage/static/js/main.ea4b464f.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/Hania-cv-sepia.png": "/personal-homepage/static/media/Hania-cv-sepia.96cf86483078e854b747.png",
     "static/media/ToggleOff-dark.svg": "/personal-homepage/static/media/ToggleOff-dark.a415d80930fe7ff812455f8d589fd27b.svg",
     "static/media/ToggleOff-light.svg": "/personal-homepage/static/media/ToggleOff-light.b2620313b5609b150eb490fc028b38da.svg",
-    "static/media/goToGitHub.svg": "/personal-homepage/static/media/goToGitHub.d168858696006cc2a92fc29d0fb808ba.svg",
+    "static/media/goToGitHub.svg": "/personal-homepage/static/media/goToGitHub.717680b677641534a6bd366f00164bdc.svg",
+    "static/media/goToGitHubDM.svg": "/personal-homepage/static/media/goToGitHubDM.8d12d65d18bd38c3f5098871a0823be1.svg",
     "static/media/Github.svg": "/personal-homepage/static/media/Github.ab97ae057cb4d432697c6ac3bd5fc93b.svg",
-    "static/media/Button-default-DM.svg": "/personal-homepage/static/media/Button-default-DM.70994493542cf9f031dd76d0bb43839d.svg",
-    "static/media/Button-default-LM.svg": "/personal-homepage/static/media/Button-default-LM.6b2b3d1ac5d9e6a567c8f20811b51076.svg",
+    "static/media/Button-default-DM.svg": "/personal-homepage/static/media/Button-default-DM.31106b5ea6dd59fdd6813d3be49f8287.svg",
+    "static/media/Button-default-LM.svg": "/personal-homepage/static/media/Button-default-LM.8c59f4f690b20cae2bb7859c385c1135.svg",
     "index.html": "/personal-homepage/index.html",
     "static/media/LinkedIN.svg": "/personal-homepage/static/media/LinkedIN.eff58b9e2280334c20ed1f6e258a114c.svg",
     "static/media/danger.svg": "/personal-homepage/static/media/danger.a713ca8752dc53fb52f84490e49aabe3.svg",
     "static/media/iconSpinner.svg": "/personal-homepage/static/media/iconSpinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
-    "main.7fc3a5ff.js.map": "/personal-homepage/static/js/main.7fc3a5ff.js.map",
+    "main.ea4b464f.js.map": "/personal-homepage/static/js/main.ea4b464f.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.7fc3a5ff.js"
+    "static/js/main.ea4b464f.js"
   ]
 }
