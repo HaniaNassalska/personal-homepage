@@ -42,11 +42,14 @@ export const StyledList = styled.ul`
   list-style: none;
   color: ${({ theme }) => theme.colors.textSecondary};
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(9, 1fr);
   grid-auto-flow: column;
   text-align: start;
   margin-left: -50px;
+  @media(max-width: ${({ theme }) => theme.breakpoint.desktopMax}px) {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+  };
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     margin-left: -40px;
     margin-right: 0px;   
@@ -58,6 +61,13 @@ export const StyledList = styled.ul`
 
 export const LearnList = styled(StyledList)`
   grid-template-rows: none;
+  grid-auto-flow: row;
+  grid-template-columns:  repeat(3, 1fr);
+  @media(max-width: ${({ theme }) => theme.breakpoint.desktopMax}px) {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+  };
+  ;
 `
 export const Item = styled.li`
   font-size: 18px;
