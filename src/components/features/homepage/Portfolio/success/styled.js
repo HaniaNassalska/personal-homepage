@@ -66,9 +66,8 @@ export const TileLink = styled.a`
   color: ${({ theme }) => theme.colors.linkButtonBlue};
   display: flex;
   align-items: center;  
-  transition: 0.5s;
   &:hover{
-    color: ${({ theme }) => theme.colors.linkHoverBlue};
+    text-decoration-color: ${({ theme }) => theme.colors.linkHoverBlue};
   };
   @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 14px;
