@@ -51,7 +51,7 @@ const Hero = () => {
       <About>
         <IntroductionText>This is</IntroductionText>
         <Name>Hanna Nassalska</Name>
-        <Info>I'm feel like being ready to find a job as Junior Frontend Developer.
+        <Info>I feel like being ready to find a job as Junior Frontend Developer.
           I love learning new things and challenging myself!</Info>
         <Mail href="mailto:hanna.nassalska@gmail.com">
           {theme === false ?
