@@ -20,13 +20,16 @@ export const skills = [
   "CSS BEM convention",
   "Markdown",
   "Trello",
-  "Project Manager expierience",
-  "IT Project Manager experience",
+  "Scrum basic knowlage",
+  "WordPress",
   "WCAG basic knowlage", 
+  "Photoshop basic knowlage",
+  "Project Manager expierience",
+  "IT Project Manager experience",  
 ];
 
 export const toLearn = [
-  "Wordpress development",  
-  "Mobile app development",
-  "WCAG",
+  "TypeScript", 
+  "Cypress", 
+  "Mobile app development"
 ];
