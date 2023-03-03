@@ -57,13 +57,13 @@ const Hero = () => {
           {theme === false ?
             <>
               <HireGraphic
-                title="Hire me"
+                title="hanna.nassalska@gmail.com"
                 alt="Hire me - mail to me" />
             </>
             :
             <>
               <HireGraphicDM
-                title="Hire me"
+                title="hanna.nassalska@gmail.com"
                 alt="Hire me - mail to me" />
             </>
           }
