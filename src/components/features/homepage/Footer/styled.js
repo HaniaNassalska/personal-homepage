@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { ReactComponent as GitHub } from "./../../../common/Ico/Github.svg";
 import { ReactComponent as LinkedIn } from "./../../../common/Ico/LinkedIN.svg";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.footer`
   max-width: 670px;
   margin-top: 130px;
   margin-bottom: 60px;
