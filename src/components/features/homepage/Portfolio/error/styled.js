@@ -15,12 +15,11 @@ export const H3Header = styled.h3`
 `;
 
 export const ErrorParagraph = styled(Paragraph)`
-margin-bottom: 32px;
-@media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+  margin-bottom: 32px;
+  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
       margin-bottom: 10px;
    };
-
-`
+`;
 
 export const GoToIco = styled(GoToHitHub)`
   transition: 0.5s;
