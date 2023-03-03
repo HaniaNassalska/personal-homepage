@@ -4,7 +4,7 @@ This is my portfolio website. You can find here my projects, skills and contact 
 
 ## How does it looks like?
 
-![How does it looks like?](https://github.com/HaniaNassalska/todos-list-react/blob/main/readme.gif?raw=true)
+![How does it looks like?](https://github.com/HaniaNassalska/personal-homepage/blob/main/public/readme.gif)
 ## [Demo version](https://hanianassalska.github.io/personal-homepage/)
 
 ## Used technologies
