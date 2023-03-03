@@ -1,6 +1,7 @@
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from './GlobalStyle';
-import { Container } from "../../common/Container/styled";
+import { Normalize } from 'styled-normalize';
+import { Container } from "../../common/Container/styled"; 
 import Hero from "../../features/homepage/Hero";
 import Portfolio from "../../features/homepage/Portfolio";
 import Footer from "../../features/homepage/Footer";
@@ -14,6 +15,7 @@ function App() {
   const theme = useSelector(selectTheme);
   return (
     <ThemeProvider theme={theme === true ? darkTheme : lightTheme}>
+      <Normalize/>
       <GlobalStyle />
       <Container>
         <Hero />
