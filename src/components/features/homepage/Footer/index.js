@@ -24,7 +24,7 @@ const Footer = () => (
       <IcoLink href="https://github.com/HaniaNassalska">
         <GitHubIco alt="GitHub"/>
         </IcoLink>
-      <IcoLink href="https://pl.linkedin.com/">
+      <IcoLink href="https://www.linkedin.com/in/hanna-nassalska-80b223269/">
         <LinkedInIco alt="LinkedIn"/>
         </IcoLink>
     </IcoContainer>
