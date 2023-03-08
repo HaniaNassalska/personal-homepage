@@ -1,6 +1,6 @@
 # Personal homepage
 
-This is my portfolio website. You can find here my projects, skills and contact details.
+This is my portfolio website. Here you can find my projects, skills and contact details.
 
 ## How does it looks like?
 
