@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/personal-homepage/static/js/main.9cb571cb.js",
+    "main.js": "/personal-homepage/static/js/main.ab6ac20c.js",
     "static/js/787.162bc9a0.chunk.js": "/personal-homepage/static/js/787.162bc9a0.chunk.js",
     "static/media/Hania-cv-sepia.png": "/personal-homepage/static/media/Hania-cv-sepia.6476b96c6649e376fd6c.png",
     "static/media/ToggleOff-dark.svg": "/personal-homepage/static/media/ToggleOff-dark.a415d80930fe7ff812455f8d589fd27b.svg",
@@ -14,10 +14,10 @@
     "static/media/danger.svg": "/personal-homepage/static/media/danger.a713ca8752dc53fb52f84490e49aabe3.svg",
     "index.html": "/personal-homepage/index.html",
     "static/media/iconSpinner.svg": "/personal-homepage/static/media/iconSpinner.88a075cf3a7f1af15999cb03bb3a0360.svg",
-    "main.9cb571cb.js.map": "/personal-homepage/static/js/main.9cb571cb.js.map",
+    "main.ab6ac20c.js.map": "/personal-homepage/static/js/main.ab6ac20c.js.map",
     "787.162bc9a0.chunk.js.map": "/personal-homepage/static/js/787.162bc9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.9cb571cb.js"
+    "static/js/main.ab6ac20c.js"
   ]
 }
