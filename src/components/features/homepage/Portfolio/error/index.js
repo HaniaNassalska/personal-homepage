@@ -13,7 +13,8 @@ import {
   GoToIco,
   H3Header,
   ErrorParagraph,
-  GoToIcoDM
+  GoToIcoDM,
+  DangerIcoDark
 } from "./styled";
 
 const ErrorView = () => {
@@ -29,9 +30,15 @@ const ErrorView = () => {
         <Paragraph>My recent projects</Paragraph>
       </ContentContainer>
       <ContentContainer>
-        <DangerIco
-          alt=""
-        />
+        {theme === false ?
+          <>
+            <DangerIco alt="" />
+          </>
+          :
+          <>
+            <DangerIcoDark alt="" />
+          </>
+        }
         <H3Header>
           Ooops! Something went wrong...
         </H3Header>
@@ -42,7 +49,6 @@ const ErrorView = () => {
           You can check them directly on Github.
         </ErrorParagraph>
         <GitHubLink href="https://github.com/HaniaNassalska">
-
           {theme === false ?
             <>
               <GoToIco alt="Go to GitHub" />

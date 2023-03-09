@@ -1,9 +1,14 @@
 import styled from "styled-components";
 import { Paragraph } from "../styled";
 import { ReactComponent as Danger } from "./danger.svg";
+import { ReactComponent as DangerDm } from "./dangerDM.svg";
 import { ReactComponent as GoToHitHub } from "./goToGitHub.svg";
 import { ReactComponent as GoToHitHubDM } from "./goToGitHubDM.svg";
+
 export const DangerIco = styled(Danger)`
+`;
+
+export const DangerIcoDark = styled(DangerDm)`
 `;
 
 export const H3Header = styled.h3`
@@ -12,6 +17,7 @@ export const H3Header = styled.h3`
   line-height: 29px;
   text-align: center;
   letter-spacing: 0.05em;
+  color: ${({ theme }) => theme.colors.text};
 `;
 
 export const ErrorParagraph = styled(Paragraph)`
