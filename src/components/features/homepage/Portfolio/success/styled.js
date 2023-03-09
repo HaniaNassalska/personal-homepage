@@ -7,7 +7,7 @@ export const PortfolioTile = styled.div`
   border-radius: 4px;
   border: 6px solid rgba(209, 213, 218, 0.3);
   transition: 1s;
-  :hover{
+  &:hover{
     border: 6px solid ${({ theme }) => theme.colors.tileHoverBlue};
   }
   
