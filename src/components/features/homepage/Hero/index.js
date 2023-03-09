@@ -19,12 +19,12 @@ import { selectTheme, toggleTheme } from "./themeSwitcher/themeSlice";
 
 const Hero = () => {
   const theme = useSelector(selectTheme);
-  const dispach = useDispatch();
+  const dispatch = useDispatch();
 
   return (
     <Wrapper>
       <ThemeChanger
-        onClick={() => dispach(toggleTheme())}
+        onClick={() => dispatch(toggleTheme())}
       >
         {theme === false ?
           <>
