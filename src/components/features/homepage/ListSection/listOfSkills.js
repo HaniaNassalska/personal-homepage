@@ -1,4 +1,10 @@
 export const skills = [
+  "IT Project Manager experience",
+  "Project Manager experience",
+  "Scrum", 
+  "Trello",
+  "Git",
+  "GitHub Pull Requests & Review",
   "React",
   "React Hooks",
   "React Router",
@@ -6,8 +12,6 @@ export const skills = [
   "Redux",
   "Redux (Toolkit)",
   "Redux-Saga",
-  "GitHub Pull Requests & Review",
-  "Git",
   "Working with API (fetch, axios)",
   "Promises, Async/Await",
   "Error handling",
@@ -19,17 +23,12 @@ export const skills = [
   "CSS Grid",
   "CSS BEM convention",
   "Markdown",
-  "Trello",
   "Scrum basic knowledge",
   "WordPress",
-  "WCAG basic knowledge", 
-  "Photoshop basic knowledge",
-  "Project Manager experience",
-  "IT Project Manager experience",  
+  "Photoshop basic knowledge",  
 ];
 
 export const toLearn = [
-  "TypeScript", 
-  "Cypress", 
+  "WordPress development",
   "Mobile app development"
 ];
