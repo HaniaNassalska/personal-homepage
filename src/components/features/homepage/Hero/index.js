@@ -51,8 +51,8 @@ const Hero = () => {
       <About>
         <IntroductionText>This is</IntroductionText>
         <Name>Hanna Nassalska</Name>
-        <Info>For 9 years I was engaged in project management in a NGO.</Info>
-         <Info>In my spare time, I like broadening my knowledge. Recently, I attended a Front-end developer course.</Info>
+        <Info>I have been working in project management in a non-governmental organization for 9 years.</Info>
+        <Info>In my spare time, I like broadening my knowledge. Recently, I attended a Front-end developer course.</Info>
         <Info>I am sure I will be a valuable member of your team.
         </Info>
         <Mail href="mailto:hanna.nassalska@gmail.com">
