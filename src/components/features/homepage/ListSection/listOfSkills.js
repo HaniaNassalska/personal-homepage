@@ -23,7 +23,7 @@ export const skills = [
   "CSS Grid",
   "CSS BEM convention",
   "Markdown",
-  "Scrum basic knowledge",
+  "WCAG basic knowledge",
   "WordPress",
   "Photoshop basic knowledge",  
 ];
