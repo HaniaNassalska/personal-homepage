@@ -23,12 +23,12 @@ export const skills = [
   "CSS Grid",
   "CSS BEM convention",
   "Markdown",
-  "WCAG basic knowledge",
-  "WordPress",
-  "Photoshop basic knowledge",  
+  "WCAG - basics",
+  "WordPress - basics",
+  "Photoshop - basic",  
 ];
 
 export const toLearn = [
-  "WordPress development",
-  "Mobile app development"
+  "TypeScript",
+  "SASS"
 ];
