@@ -1,13 +1,9 @@
 export const skills = [
-  "IT Project Manager experience",
-  "Project Manager experience",
-  "Scrum", 
-  "Trello",
-  "Git",
-  "GitHub Pull Requests & Review",
   "React",
   "React Hooks",
   "React Router",
+  "Git",
+  "GitHub Pull Requests & Review",
   "NPM",
   "Redux",
   "Redux (Toolkit)",
@@ -23,9 +19,13 @@ export const skills = [
   "CSS Grid",
   "CSS BEM convention",
   "Markdown",
+  "Scrum",
+  "Trello",
   "WCAG - basics",
   "WordPress - basics",
-  "Photoshop - basic",  
+  "Photoshop - basics",
+  "IT Project Manager experience",
+  "Project Manager experience",
 ];
 
 export const toLearn = [
