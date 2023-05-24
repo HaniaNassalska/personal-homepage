@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const homepageSlice = createSlice({
-  name: "protfolio",
+  name: "portfolio",
   initialState: {
     status: "",
     projects: [],
@@ -26,7 +26,7 @@ export const {
   fetchProjectsError,
 } = homepageSlice.actions;
 
-export const selectPortfolioState = (state) => state.protfolio;
+export const selectPortfolioState = (state) => state.portfolio;
 export const selectStatus = (state) => selectPortfolioState(state).status;
 export const selectProjects = (state) => selectPortfolioState(state).projects;
 export default homepageSlice.reducer;

@@ -8,7 +8,7 @@ const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
   reducer: {
-    protfolio: homepageReducer,
+    portfolio: homepageReducer,
     theme: themeReducer,
   },
   middleware: [sagaMiddleware],
