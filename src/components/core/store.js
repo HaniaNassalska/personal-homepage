@@ -1,8 +1,8 @@
-import createSagaMiddleware from '@redux-saga/core';
-import { configureStore } from '@reduxjs/toolkit';
-import rootSaga from './rootSaga';
-import homepageReducer from '../features/homepage/homepageSlice';
-import themeReducer from '../features/homepage/Hero/themeSwitcher/themeSlice'
+import createSagaMiddleware from "@redux-saga/core";
+import { configureStore } from "@reduxjs/toolkit";
+import rootSaga from "./rootSaga";
+import homepageReducer from "../features/homepage/homepageSlice";
+import themeReducer from "../features/homepage/Hero/themeSwitcher/themeSlice";
 
 const sagaMiddleware = createSagaMiddleware();
 
@@ -11,7 +11,7 @@ const store = configureStore({
     protfolio: homepageReducer,
     theme: themeReducer,
   },
-  middleware: [sagaMiddleware]
+  middleware: [sagaMiddleware],
 });
 
 sagaMiddleware.run(rootSaga);

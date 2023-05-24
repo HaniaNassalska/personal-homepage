@@ -11,10 +11,10 @@ const rotations = keyframes`
 `;
 
 export const IcoSpinner = styled(Spinner)`
-  margin-top: 40px; 
+  margin-top: 40px;
   max-width: 140px;
   animation: ${rotations} 2s linear infinite;
-  @media(max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     max-width: 80px;
-  };
-  `;
+  }
+`;

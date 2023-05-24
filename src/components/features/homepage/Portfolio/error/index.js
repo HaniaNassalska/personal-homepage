@@ -5,7 +5,7 @@ import {
   GitHubIco,
   Header,
   Paragraph,
-  Wrapper
+  Wrapper,
 } from "../styled";
 import {
   DangerIco,
@@ -14,7 +14,7 @@ import {
   H3Header,
   ErrorParagraph,
   GoToIcoDM,
-  DangerIcoDark
+  DangerIcoDark,
 } from "./styled";
 
 const ErrorView = () => {
@@ -23,41 +23,33 @@ const ErrorView = () => {
   return (
     <Wrapper>
       <ContentContainer>
-        <GitHubIco
-          alt="GitHub"
-        />
+        <GitHubIco alt="GitHub" />
         <Header>Portfolio</Header>
         <Paragraph>My recent projects</Paragraph>
       </ContentContainer>
       <ContentContainer>
-        {theme === false ?
+        {theme === false ? (
           <>
             <DangerIco alt="" />
           </>
-          :
+        ) : (
           <>
             <DangerIcoDark alt="" />
           </>
-        }
-        <H3Header>
-          Ooops! Something went wrong...
-        </H3Header>
-        <Paragraph>
-          Sorry, failed to load Github projects.
-        </Paragraph>
-        <ErrorParagraph>
-          You can check them directly on Github.
-        </ErrorParagraph>
+        )}
+        <H3Header>Ooops! Something went wrong...</H3Header>
+        <Paragraph>Sorry, failed to load Github projects.</Paragraph>
+        <ErrorParagraph>You can check them directly on Github.</ErrorParagraph>
         <GitHubLink href="https://github.com/HaniaNassalska">
-          {theme === false ?
+          {theme === false ? (
             <>
               <GoToIco alt="Go to GitHub" />
             </>
-            :
+          ) : (
             <>
               <GoToIcoDM alt="Go to GitHub" />
             </>
-          }
+          )}
         </GitHubLink>
       </ContentContainer>
     </Wrapper>

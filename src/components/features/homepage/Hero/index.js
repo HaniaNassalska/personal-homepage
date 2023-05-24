@@ -23,56 +23,52 @@ const Hero = () => {
 
   return (
     <Wrapper>
-      <ThemeChanger
-        onClick={() => dispatch(toggleTheme())}
-      >
-        {theme === false ?
+      <ThemeChanger onClick={() => dispatch(toggleTheme())}>
+        {theme === false ? (
           <>
             <Text>dark mode off</Text>
-            <ToggleOffLlight
-              title="Dark mode off"
-              alt=""
-            />
+            <ToggleOffLlight title="Dark mode off" alt="" />
           </>
-          :
+        ) : (
           <>
             <Text>dark mode on</Text>
-            <ToggleOffDark
-              title="Dark mode on"
-              alt=""
-            />
+            <ToggleOffDark title="Dark mode on" alt="" />
           </>
-        }
+        )}
       </ThemeChanger>
-      <Image
-        src={myPhoto}
-        alt=""
-      />
+      <Image src={myPhoto} alt="" />
       <About>
         <IntroductionText>This is</IntroductionText>
         <Name>Hanna Nassalska</Name>
-        <Info>I have been working in project management in non-governmental organizations for 9 years.</Info>
-        <Info>In my spare time, I like broadening my knowledge. Recently, I attended a Front-end developer course.</Info>
-        <Info>I am sure I will be a valuable member of your team.
+        <Info>
+          I have been working in project management in non-governmental
+          organizations for 9 years.
         </Info>
+        <Info>
+          In my spare time, I like broadening my knowledge. Recently, I attended
+          a Front-end developer course.
+        </Info>
+        <Info>I am sure I will be a valuable member of your team.</Info>
         <Mail href="mailto:hanna.nassalska@gmail.com">
-          {theme === false ?
+          {theme === false ? (
             <>
               <HireGraphic
                 title="hanna.nassalska@gmail.com"
-                alt="Hire me - mail to me" />
+                alt="Hire me - mail to me"
+              />
             </>
-            :
+          ) : (
             <>
               <HireGraphicDM
                 title="hanna.nassalska@gmail.com"
-                alt="Hire me - mail to me" />
+                alt="Hire me - mail to me"
+              />
             </>
-          }
+          )}
         </Mail>
       </About>
     </Wrapper>
-  )
+  );
 };
 
 export default Hero;

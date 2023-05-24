@@ -3,7 +3,7 @@ import {
   GitHubIco,
   Header,
   Paragraph,
-  Wrapper
+  Wrapper,
 } from "../styled";
 import { IcoSpinner } from "./styled";
 

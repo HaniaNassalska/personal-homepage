@@ -1,15 +1,18 @@
 import { call, delay, put, takeLatest } from "redux-saga/effects";
 import { getRepo } from "./getRepo";
-import { fetchProjectsError, fetchProjectsPending, fetchProjectsSuccess } from "./homepageSlice";
+import {
+  fetchProjectsError,
+  fetchProjectsPending,
+  fetchProjectsSuccess,
+} from "./homepageSlice";
 
 function* fetchPortfolioHandler() {
   try {
     const portfolio = yield call(getRepo);
     yield delay(1500);
     yield put(fetchProjectsSuccess(portfolio));
-  }
-  catch (error) {
-    yield put(fetchProjectsError())
+  } catch (error) {
+    yield put(fetchProjectsError());
   }
 }
 
