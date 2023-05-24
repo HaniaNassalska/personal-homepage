@@ -30,5 +30,6 @@ export const skills = [
 
 export const toLearn = [
   "TypeScript",
+  "TanStack Query",
   "SASS"
 ];
