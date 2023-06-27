@@ -41,14 +41,13 @@ const Hero = () => {
         <IntroductionText>This is</IntroductionText>
         <Name>Hanna Nassalska</Name>
         <Info>
-          I have been working in project management in non-governmental
-          organizations for 9 years.
+          Hello! My name is Hania and this is my personal page. You can find
+          here some of my projects.
         </Info>
         <Info>
-          In my spare time, I like broadening my knowledge. Recently, I attended
-          a Front-end developer course.
+          Don't be surprised if you find some strange repo - I'm probably
+          learning something new at the moment 😉
         </Info>
-        <Info>I am sure I will be a valuable member of your team.</Info>
         <Mail href="mailto:hanna.nassalska@gmail.com">
           {theme === false ? (
             <>
