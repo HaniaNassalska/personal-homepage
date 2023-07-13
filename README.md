@@ -2,9 +2,9 @@
 
 This is my portfolio website. Here you can find my projects, skills and contact details.
 
-## How does it look like?
+## What does it look like?
 
-![How does it looks like?](https://github.com/HaniaNassalska/personal-homepage/blob/main/public/readme.gif)
+![What does it look like?](https://github.com/HaniaNassalska/personal-homepage/blob/main/public/readme.gif)
 ## [Demo version](https://hanianassalska.github.io/personal-homepage/)
 
 ## Used technologies
