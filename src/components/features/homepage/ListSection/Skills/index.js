@@ -10,7 +10,7 @@ import { skills } from "../listOfSkills";
 
 const Skills = () => (
   <Wrapper>
-    <Header>My skillset includes:</Header>
+    <Header>My skill set includes:</Header>
     <Divider />
     <ListWrapper>
       <StyledList>
