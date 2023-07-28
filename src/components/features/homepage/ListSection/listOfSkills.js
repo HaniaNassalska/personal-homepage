@@ -15,6 +15,7 @@ export const skills = [
   "Semantic & accessible HTML",
   "Responsive Web Design",
   "Immutability",
+  "SASS",
   "CSS Flexbox",
   "CSS Grid",
   "CSS BEM convention",
@@ -25,11 +26,11 @@ export const skills = [
   "WordPress - basics",
   "Photoshop - basics",
   "IT Project Manager experience",
-  "Project Manager experience",
 ];
 
 export const toLearn = [
   "TypeScript",
   "TanStack Query",
-  "SASS"
+  "Node.js"
+  
 ];
