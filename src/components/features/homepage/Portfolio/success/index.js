@@ -17,7 +17,10 @@ import {
 } from "./styled"
 
 const SuccessView = () => {
-  const projects = useSelector(selectProjects)
+  const projects = useSelector(selectProjects);
+  const projectsWithHomepage = projects.filter((project) => project.homepage);
+  const projectsWithoutHomepage = projects.filter((project) => !project.homepage);
+
   return (
     <Wrapper>
       <ContentContainer>
@@ -25,39 +28,33 @@ const SuccessView = () => {
         <Header>Portfolio</Header>
         <Paragraph>My recent projects</Paragraph>
       </ContentContainer>
-      {projects.map(project => {
-        const projectNameWithoutDash =
-          (project.name.replaceAll("-", " ")
-          ).replaceAll("_", " ");
-        const nameOfProjects =
-          projectNameWithoutDash.charAt(0).toUpperCase()
-          + projectNameWithoutDash.slice(1);
-        return (
-          <PortfolioTile key={project.id}>
-            <TileHeader>
-              {nameOfProjects}
-            </TileHeader>
-            <TileText >
-              {project.description}
-            </TileText>
-            <LinkWrapper>
-              <TileTextLink> Demo: </TileTextLink>
-              <TileLink
-                href={project.homepage}>
-                {project.homepage}
-              </TileLink>
-              <TileTextLink> Code: </TileTextLink>
-              <TileLink
-                href={project.html_url}>
-                {project.html_url}
-              </TileLink>
-            </LinkWrapper>
-          </PortfolioTile>
-        )
-      })
-      }
+
+      {projectsWithHomepage.map((project) => (
+        <PortfolioTile key={project.id}>
+          <TileHeader>{project.name}</TileHeader>
+          {project.description && <TileText>{project.description}</TileText>}
+          <LinkWrapper>
+            <TileTextLink> Demo: </TileTextLink>
+            <TileLink href={project.homepage}>{project.homepage}</TileLink>
+            <TileTextLink> Code: </TileTextLink>
+            <TileLink href={project.html_url}>{project.html_url}</TileLink>
+          </LinkWrapper>
+        </PortfolioTile>
+      ))}
+
+      {projectsWithoutHomepage.map((project) => (
+        <PortfolioTile key={project.id}>
+          <TileHeader>{project.name}</TileHeader>
+          {project.description && <TileText>{project.description}</TileText>}
+          <LinkWrapper>
+            <TileTextLink> Code: </TileTextLink>
+            <TileLink href={project.html_url}>{project.html_url}</TileLink>
+          </LinkWrapper>
+        </PortfolioTile>
+      ))}
     </Wrapper>
-  )
+  );
 };
+
 
 export default SuccessView;
