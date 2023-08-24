@@ -68,7 +68,6 @@ const SuccessView = () => {
       {projectsWithoutHomepage.map((project) => (
         <PortfolioTile key={project.id}>
           <TileHeader>{project.name}</TileHeader>
-          {project.description && <TileText>{project.description}</TileText>}
           <LinkWrapper>
             <TileTextLink> Code: </TileTextLink>
             <TileLink href={project.html_url}>{project.html_url}</TileLink>
