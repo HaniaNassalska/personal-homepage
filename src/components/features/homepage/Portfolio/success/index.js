@@ -18,8 +18,18 @@ import {
 
 const SuccessView = () => {
   const projects = useSelector(selectProjects);
-  const projectsWithHomepage = projects.filter((project) => project.homepage);
-  const projectsWithoutHomepage = projects.filter((project) => !project.homepage);
+
+  const firstTwoProjects = projects.filter(
+    (project) => project.name === "personal-homepage" || project.name === "Movie-Browser"
+  );
+
+  const projectsWithHomepageWithoutFirstTwo = projects.filter(
+    (project) => project.homepage && project.name !== "personal-homepage" && project.name !== "Movie-Browser"
+  );
+
+  const projectsWithoutHomepage = projects.filter(
+    (project) => !project.homepage
+  );
 
   return (
     <Wrapper>
@@ -29,7 +39,20 @@ const SuccessView = () => {
         <Paragraph>My recent projects</Paragraph>
       </ContentContainer>
 
-      {projectsWithHomepage.map((project) => (
+      {firstTwoProjects.map((project) => (
+        <PortfolioTile key={project.id}>
+          <TileHeader>{project.name}</TileHeader>
+          {project.description && <TileText>{project.description}</TileText>}
+          <LinkWrapper>
+            <TileTextLink> Demo: </TileTextLink>
+            <TileLink href={project.homepage}>{project.homepage}</TileLink>
+            <TileTextLink> Code: </TileTextLink>
+            <TileLink href={project.html_url}>{project.html_url}</TileLink>
+          </LinkWrapper>
+        </PortfolioTile>
+      ))}
+
+      {projectsWithHomepageWithoutFirstTwo.map((project) => (
         <PortfolioTile key={project.id}>
           <TileHeader>{project.name}</TileHeader>
           {project.description && <TileText>{project.description}</TileText>}
@@ -55,6 +78,5 @@ const SuccessView = () => {
     </Wrapper>
   );
 };
-
 
 export default SuccessView;

@@ -1,6 +1,6 @@
 export const getRepo = async () => {
   const response = await fetch(
-    "https://api.github.com/users/HaniaNassalska/repos?sort=pushed"
+    "https://api.github.com/users/HaniaNassalska/repos?per_page=100&sort=pushed&direction=desc"
   );
 
   if (!response.ok) {
