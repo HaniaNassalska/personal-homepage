@@ -23,6 +23,10 @@ const SuccessView = () => {
     (project) => project.name === "personal-homepage" || project.name === "Movie-Browser"
   );
 
+  const layoutMiami = projects.filter(
+    (project) => project.name === "layout_miami"
+  );
+
   const projectsWithHomepageWithoutFirstTwo = projects.filter(
     (project) => project.homepage && project.name !== "personal-homepage" && project.name !== "Movie-Browser"
   );
@@ -45,9 +49,26 @@ const SuccessView = () => {
           {project.description && <TileText>{project.description}</TileText>}
           <LinkWrapper>
             <TileTextLink> Demo: </TileTextLink>
-            <TileLink href={project.homepage}>{project.homepage}</TileLink>
+            <TileLink href={project.homepage} target="_blank">{project.homepage}</TileLink>
             <TileTextLink> Code: </TileTextLink>
-            <TileLink href={project.html_url}>{project.html_url}</TileLink>
+            <TileLink href={project.html_url} target="_blank">{project.html_url}</TileLink>
+          </LinkWrapper>
+        </PortfolioTile>
+      ))}
+
+      {layoutMiami.map((project) => (
+        <PortfolioTile key={project.id}>
+          <TileHeader>{project.name}</TileHeader>
+          <TileText>
+            This is an example of my skills. Landing page based on a graphic design designed in Figma (copyright Mate Academy).  Used technologies: HTML, BEM, SASS.
+            </TileText>
+          <LinkWrapper>
+            <TileTextLink> Demo: </TileTextLink>
+            <TileLink href="https://hanianassalska.github.io/layout_miami/" target="_blank">
+              https://hanianassalska.github.io/layout_miami/
+              </TileLink>
+            <TileTextLink> Code: </TileTextLink>
+            <TileLink href={`${project.html_url}/tree/develop`} target="_blank">{project.html_url}/tree/develop</TileLink>
           </LinkWrapper>
         </PortfolioTile>
       ))}
@@ -58,9 +79,9 @@ const SuccessView = () => {
           {project.description && <TileText>{project.description}</TileText>}
           <LinkWrapper>
             <TileTextLink> Demo: </TileTextLink>
-            <TileLink href={project.homepage}>{project.homepage}</TileLink>
+            <TileLink href={project.homepage} target="_blank">{project.homepage}</TileLink>
             <TileTextLink> Code: </TileTextLink>
-            <TileLink href={project.html_url}>{project.html_url}</TileLink>
+            <TileLink href={project.html_url} target="_blank">{project.html_url}</TileLink>
           </LinkWrapper>
         </PortfolioTile>
       ))}
@@ -70,7 +91,7 @@ const SuccessView = () => {
           <TileHeader>{project.name}</TileHeader>
           <LinkWrapper>
             <TileTextLink> Code: </TileTextLink>
-            <TileLink href={project.html_url}>{project.html_url}</TileLink>
+            <TileLink href={`${project.html_url}/tree/develop`} target="_blank">{project.html_url}/tree/develop</TileLink>
           </LinkWrapper>
         </PortfolioTile>
       ))}
