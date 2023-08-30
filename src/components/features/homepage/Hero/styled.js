@@ -88,7 +88,7 @@ export const Name = styled.h1`
 `;
 
 export const Info = styled.p`
-  margin-top: -16px;
+  margin-top: -6px;
   color: ${({ theme }) => theme.colors.textSecondary};
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     font-size: 17px;

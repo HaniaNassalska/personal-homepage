@@ -10,7 +10,7 @@ import { toLearn } from "../listOfSkills";
 
 const ToLearn = ({ listItems }) => (
   <Wrapper>
-    <Header>What do I want to learn next?</Header>
+    <Header>What am I currently learning?</Header>
     <Divider />
     <ListWrapper>
       <LearnList>

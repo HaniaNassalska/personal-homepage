@@ -2,6 +2,7 @@ export const skills = [
   "React",
   "React Hooks",
   "React Router",
+  "TypeScript",
   "Git",
   "GitHub Pull Requests & Review",
   "NPM",
@@ -15,9 +16,9 @@ export const skills = [
   "Semantic & accessible HTML",
   "Responsive Web Design",
   "Immutability",
+  "Styled Components",
   "SASS",
-  "CSS Flexbox",
-  "CSS Grid",
+  "CSS Flexbox & Grid",
   "CSS BEM convention",
   "Markdown",
   "Scrum",
@@ -25,11 +26,9 @@ export const skills = [
   "WCAG - basics",
   "WordPress - basics",
   "Photoshop - basics",
-  "IT Project Manager experience",
 ];
 
 export const toLearn = [
-  "TypeScript",
   "TanStack Query",
   "Node.js"
   

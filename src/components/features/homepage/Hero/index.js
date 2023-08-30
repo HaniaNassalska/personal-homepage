@@ -41,12 +41,23 @@ const Hero = () => {
         <IntroductionText>This is</IntroductionText>
         <Name>Hanna Nassalska</Name>
         <Info>
-          Hello! My name is Hania and this is my personal page. You can find
-          here some of my projects.
+        Hello! My name is Hania and this is my personal page.
         </Info>
         <Info>
-          Don't be surprised if you find some strange repo - I'm probably
-          learning something new at the moment 😉
+        I have 1.5 years of experience in Front-end. I have created many projects, including team projects - you can find them below! I work in HTML, CSS, React, JS, TypeScript and I’m not stopping there!
+        </Info>
+        <Info>
+        How did my Front-end adventure start?
+        </Info>
+        <Info>
+        In my previous job, I worked in a team with Web Developers as a Project Manager and IT started to fascinate me - so I decided to try it. At first, I wanted to improve my skills as an IT Project Manager, but I fell in love with programming and decided to become a Front-end Developer myself.
+        </Info>
+        <Info>
+        I’m very determined, that’s why I try harder than others! I’m an open-minded person. I like learning new things and I know how to look for answers to questions. I want to learn more and more, so I recently attended the Fullstack course.
+        </Info>
+        <Info>
+        PS: Don't be surprised if you find some strange repo - I'm probably learning something new at the moment.
+ 😉
         </Info>
         <Mail href="mailto:hanna.nassalska@gmail.com">
           {theme === false ? (
