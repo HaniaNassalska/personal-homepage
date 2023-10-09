@@ -1,5 +1,3 @@
-import { useSelector } from "react-redux";
-import { selectProjects } from "../../homepageSlice";
 import {
   Wrapper,
   ContentContainer,
@@ -15,21 +13,10 @@ import {
   TileLink,
   LinkWrapper
 } from "./styled"
+import { useViewContent } from "./useViewContent";
 
 const SuccessView = () => {
-  const projects = useSelector(selectProjects);
-
-  const firstTwoProjects = projects.filter(
-    (project) => project.name === "personal-homepage" || project.name === "Movie-Browser"
-  );
-  
-  const projectsWithHomepageWithoutFirstTwo = projects.filter(
-    (project) => project.homepage && project.name !== "personal-homepage" && project.name !== "Movie-Browser"
-  );
-
-  const projectsWithoutHomepage = projects.filter(
-    (project) => !project.homepage && project.name !== "layout_miami"
-  );
+  const {first, second, third} = useViewContent();
 
   return (
     <Wrapper>
@@ -39,7 +26,7 @@ const SuccessView = () => {
         <Paragraph>My recent projects</Paragraph>
       </ContentContainer>
 
-      {firstTwoProjects.map((project) => (
+      {first.map((project) => (
         <PortfolioTile key={project.id}>
           <TileHeader>{project.name}</TileHeader>
           {project.description && <TileText>{project.description}</TileText>}
@@ -52,7 +39,7 @@ const SuccessView = () => {
         </PortfolioTile>
       ))}
 
-      {projectsWithHomepageWithoutFirstTwo.map((project) => (
+      {second.map((project) => (
         <PortfolioTile key={project.id}>
           <TileHeader>{project.name}</TileHeader>
           {project.description && <TileText>{project.description}</TileText>}
@@ -65,7 +52,7 @@ const SuccessView = () => {
         </PortfolioTile>
       ))}
 
-      {projectsWithoutHomepage.map((project) => (
+      {third.map((project) => (
         <PortfolioTile key={project.id}>
           <TileHeader>{project.name}</TileHeader>
           <LinkWrapper>
