@@ -29,7 +29,8 @@ export const skills = [
 ];
 
 export const toLearn = [
-  "TanStack Query",
-  "Node.js"
+  "Node.js",
+  "Express",
+  "Vue.js"
   
 ];
