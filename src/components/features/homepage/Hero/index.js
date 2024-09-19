@@ -42,28 +42,29 @@ const Hero = () => {
         <Name>Hanna Nassalska</Name>
         <Info>Hello! My name is Hania and this is my personal page.</Info>
         <Info>
-          I have 1.5 years of experience in Front-end. I have created around 60
-          projects, both comprehensive applications and task-based projects,
-          including team projects - you can find them below! I work in React,
-          TypeScript, Node.js, HTML, CSS, Sass and I’m not stopping there!
+          I'm a Front-end developer with over 2,5 years of experience. I work at
+          Faktura.pl, where I’m responsible for application development and bug
+          fixing, using Angular, AngularJS, and PHP on a regular basis. I focus
+          on code quality, UI, and the finer details of tasks.
         </Info>
-        <Info>How did my Front-end adventure start?</Info>
         <Info>
-          In my previous job, I worked in a team with Web Developers as a
-          Project Manager and IT started to fascinate me - so I decided to try
-          it. At first, I wanted to improve my skills as an IT Project Manager,
-          but I fell in love with programming and decided to become a Front-end
-          Developer myself.
+          I also have experience as a Project Manager. I worked in an
+          organization, Fundacja Widzialni (Widzalni.eu), that promotes Web
+          Content Accessibility Guidelines (WCAG). During my time there, I
+          decided to broaden my IT knowledge, particularly in Front-end
+          development, to enhance my skills as an IT Project Manager. However,
+          after starting, I realized that I didn't want to be a PM, but rather a
+          Developer – because I enjoyed it so much!
         </Info>
         <Info>
           I’m very determined, that’s why I try harder than others! I’m an
           open-minded person. I like learning new things and I know how to look
-          for answers to questions. I want to learn more and more! Right now, I
-          am developing my Full-stack skills (Node.js).
+          for answers to questions. I want to learn more and more!
         </Info>
         <Info>
-          PS: Don't be surprised if you find some strange repo - I'm probably
-          learning something new at the moment. 😉
+          In addition, I have completed approximately 60 projects, ranging from
+          comprehensive applications to task-based projects. You can find them
+          below. 😉
         </Info>
         <Mail href="mailto:hanna.nassalska@gmail.com">
           {theme === false ? (

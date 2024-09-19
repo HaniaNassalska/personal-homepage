@@ -3,8 +3,11 @@ export const skills = [
   "React Hooks",
   "React Router",
   "TypeScript",
+  "Angular",
+  "Angular JS",
   "Git",
   "GitHub Pull Requests & Review",
+  "Bitbucket",
   "NPM",
   "Redux",
   "Redux (Toolkit)",
@@ -20,17 +23,18 @@ export const skills = [
   "SASS",
   "CSS Flexbox & Grid",
   "CSS BEM convention",
+  "WCAG",
   "Markdown",
   "Scrum",
+  "Jira",
   "Trello",
-  "WCAG - basics",
+  "Figma",
+  "PHP - basics",
   "WordPress - basics",
   "Photoshop - basics",
 ];
 
 export const toLearn = [
-  "Node.js",
-  "Express",
-  "Vue.js"
-  
+  "React Native",
+  "PHP"  
 ];

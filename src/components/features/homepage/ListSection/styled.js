@@ -43,7 +43,7 @@ export const StyledList = styled.ul`
   list-style: none;
   color: ${({ theme }) => theme.colors.textSecondary};
   display: grid;
-  grid-template-rows: repeat(9, 1fr);
+  grid-template-rows: repeat(11, 1fr);
   grid-auto-flow: column;
   text-align: start;
   margin-left: -50px;
