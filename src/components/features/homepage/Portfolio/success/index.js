@@ -23,7 +23,8 @@ const SuccessView = () => {
       <ContentContainer>
         <GitHubIco alt="" />
         <Header>Portfolio</Header>
-        <Paragraph>My recent projects</Paragraph>
+        <Paragraph>These are some of my older projects</Paragraph>
+        <Paragraph>– these days I’m mostly focused on my ‘real’ developer job 🫣</Paragraph>
       </ContentContainer>
 
       {first.map((project) => (

@@ -42,10 +42,13 @@ const Hero = () => {
         <Name>Hanna Nassalska</Name>
         <Info>Hello! My name is Hania and this is my personal page.</Info>
         <Info>
-          I'm a Front-end developer with over 2,5 years of experience. I work at
-          Faktura.pl, where I’m responsible for application development and bug
-          fixing, using Angular, AngularJS, and PHP on a regular basis. I focus
-          on code quality, UI, and the finer details of tasks.
+          I'm a Front-end developer with over 3 years of experience. I work at 
+          <b> Faktura.pl</b>, where I’m responsible for application development and bug fixing, 
+          regularly working with AngularJS (with TypeScript) and PHP.           
+        </Info>
+        <Info>
+          I focus on code quality, UI, and attention to detail. Recently, 
+          I’ve been further developing my skills in Angular.
         </Info>
         <Info>
           I also have experience as a Project Manager. I worked in an

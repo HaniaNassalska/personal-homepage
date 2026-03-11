@@ -35,6 +35,5 @@ export const skills = [
 ];
 
 export const toLearn = [
-  "React Native",
-  "PHP"  
+  "Angular. Never too much of it. ❤️",
 ];
